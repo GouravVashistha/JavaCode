@@ -21,15 +21,22 @@ public class ReverseNumber {
 
     }
 
+    public static void usingStringBuilder(int num){
+        StringBuilder sb = new StringBuilder();
+        sb.append(num);
+        System.out.println("Reverse the number using string builder :"+sb.reverse());
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Number :-");
         int num = sc.nextInt();
         // using ALgorithum
-//        usingAlgo(num);
+         usingAlgo(num);
         // using StringBuffer class
         usingStringBufferClass(num);
-
+        // using stringBuilder class
+        usingStringBuilder(num);
     }
 }
 
