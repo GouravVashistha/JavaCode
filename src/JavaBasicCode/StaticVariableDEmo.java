@@ -20,6 +20,5 @@ public class StaticVariableDEmo {
         StaticVariableDEmo sc2 = new StaticVariableDEmo(2, "Ammar");
         sc1.display();
         sc2.display();
-
     }
-}
+}   
