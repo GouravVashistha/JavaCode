@@ -1,15 +1,15 @@
 package JavaBasicCode;
 /*
-    Inheritance is a machanism by which one object acquires all the properties and Behaviou
-    of another object of another class. It is use for code reusebility and Method Overriding
+    Inheritance is a mechanism by which one object acquires all the properties and Behaviour
+    of another object of another class. It is use for code reusability and Method Overriding
 
     There is 5 type of Inheritance In java:
         1. SIngle level
         2. Multi level
-        3. Huybrid Inheritance
+        3. Hybrid Inheritance
         4. Hierarchical Inheritance
 
-    java Dose not suport Multiple inhertance...
+    java Dose not support Multiple inheritance...
  */
 class Animal{
     void Sound(){
