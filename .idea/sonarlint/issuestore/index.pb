@@ -19,3 +19,5 @@ Z
 *src/JavaBasicCode/SumOfTheDigitNumber.java,9\f\9f6c35f3cfa34a566940d4af10cdc22988e8f8e7
 T
 $src/JavaBasicCode/ReverseNumber.java,c\7\c7c96efe22bb31e36c146b3fee3325b477c9dc38
+\
+,src/JavaBasicCode/LargestOfThreeNumberr.java,5\4\544197ac05d6ae431f802d57a70f9890b379728a
