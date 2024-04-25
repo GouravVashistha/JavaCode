@@ -15,3 +15,7 @@ X
 (src/JavaBasicCode/RemoveSpecialChar.java,0\a\0a630bc8678bb9c8c9ff215c32d2ad8cf109cf1f
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+Z
+*src/JavaBasicCode/SumOfTheDigitNumber.java,9\f\9f6c35f3cfa34a566940d4af10cdc22988e8f8e7
+T
+$src/JavaBasicCode/ReverseNumber.java,c\7\c7c96efe22bb31e36c146b3fee3325b477c9dc38
