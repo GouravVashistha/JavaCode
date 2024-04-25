@@ -12,6 +12,7 @@ package JavaBasicCode;
     java Dose not support Multiple inheritance...
  */
 class Animal{
+
     void Sound(){
         System.out.println("Animal Make Sound...!");
     }
