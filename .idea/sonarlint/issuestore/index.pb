@@ -23,3 +23,5 @@ $src/JavaBasicCode/ReverseNumber.java,c\7\c7c96efe22bb31e36c146b3fee3325b477c9d
 ,src/JavaBasicCode/LargestOfThreeNumberr.java,5\4\544197ac05d6ae431f802d57a70f9890b379728a
 a
 1src/JavaBasicCode/ConstructorCleaningExample.java,c\6\c69b8cddca1739dc7dc33fc561f0cfd8dac07882
+Y
+)src/JavaBasicCode/AggregationExample.java,3\7\3776723cd28acff9ad95a65b6ef4dc0630cbe885
