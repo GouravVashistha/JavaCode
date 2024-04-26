@@ -10,6 +10,9 @@ package JavaBasicCode;
         4. Hierarchical Inheritance
 
     java Dose not support Multiple inheritance...
+    Runtime polymorphism cannot be achieved without using inheritance.
+    Method overriding cannot be achieved without inheritance. By method overriding, we can give a specific implementation of
+    some basic method contained by the base class.
  */
 class Animal{
 
