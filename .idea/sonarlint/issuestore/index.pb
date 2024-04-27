@@ -35,3 +35,5 @@ Y
 ,src/DesignPattern/singletonClassExample.java,9\6\966948162638e817829b7ed3eb394dc8acdef754
 ^
 .src/DSA/SortingAlorithums/BubbleSortAlogo.java,a\a\aa5cf7214ccba405145ad16c0c2a0a0d5d071042
+a
+1src/DSA/SearchingAlogrithum/BinarySearchAlgo.java,d\4\d43ec69d9c618d34cbcb51c8d313dd54a5b6a3f3
