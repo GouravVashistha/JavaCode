@@ -33,3 +33,5 @@ Y
 )src/JavaBasicCode/CompositionExample.java,0\6\06e8a7570712439aa1ef0159634bc0996f9a63d1
 \
 ,src/DesignPattern/singletonClassExample.java,9\6\966948162638e817829b7ed3eb394dc8acdef754
+^
+.src/DSA/SortingAlorithums/BubbleSortAlogo.java,a\a\aa5cf7214ccba405145ad16c0c2a0a0d5d071042
