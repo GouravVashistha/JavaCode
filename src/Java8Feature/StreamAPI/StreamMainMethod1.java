@@ -33,9 +33,18 @@ public class StreamMainMethod1 {
                     System.out.println(e);
                 }
         );
+        // another way to print list using stream
+//        names.stream().forEach(System.out::println);
 
-        names.stream().forEach(System.out::println);
+        //sorted
 
+        numbers.stream().sorted().forEach(System.out::println);
+
+        Integer intValue = numbers.stream().min((x, y) -> x.compareTo(y)).get();
+        System.out.println(intValue);
+
+        Integer intValue1 = numbers.stream().max((x, y) -> x.compareTo(y)).get();
+        System.out.println(intValue1);
 
     }
 }
