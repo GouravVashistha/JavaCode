@@ -1,0 +1,6 @@
+1. What is Stream API?
+    -> These Streams are related to Collection FrameWorks/Group of Object. These streams are very different from io stream,
+       io stream are sequence of data.
+    -> These streams was introduced in java 1.8 version.
+    -> Stream API is basically perform bulk operation and process the objects of collection.
+    -> Stream reduced the code Length.

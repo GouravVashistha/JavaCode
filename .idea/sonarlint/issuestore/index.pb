@@ -51,3 +51,5 @@ m
 =src/Java8Feature/LambadaExpression/ThreadDemoUsingLambda.java,7\1\719ca9e7091452e31505bffea72241d6cc488a2c
 `
 0src/Java8Feature/LambadaExpression/MyWindow.java,2\5\25bfc3d37f3826da96fbf6ce30a0a92754680359
+]
+-src/Java8Feature/StreamAPI/TheroryOFStreamAPI,5\7\572373fdcaddf7cf39cf7cb458a652a57178e07a
