@@ -39,3 +39,7 @@ a
 1src/DSA/SearchingAlogrithum/BinarySearchAlgo.java,d\4\d43ec69d9c618d34cbcb51c8d313dd54a5b6a3f3
 m
 =src/Java8Feature/LambadaExpression/Theory_of_LambdaExpression,8\5\85687915f5092dbd526dd8bdee7d8a7e0b3e4a40
+_
+/src/Java8Feature/LambadaExpression/Lambda1.java,2\7\27ec3cc55382348cf6bd924681f16b2cf1e5d4e6
+_
+/src/Java8Feature/LambadaExpression/MyInter.java,c\e\cede509d2a7276f509b52ba257feb261af65225f
