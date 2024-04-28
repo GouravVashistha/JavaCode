@@ -16,3 +16,16 @@
     -> Sequential and Parallel Excution Support by passing behaviour as an argument in methods.
     -> To call APIs Very effectively.
     -> To write more Readable, Maintainable and concise code.
+    -> To provide the implementation of Functional interface.
+
+3. What is Functional Interface?
+  Lambda expression provides implementation of functional interface. An interface which has only one abstract method is called
+  functional interface. Java provides an anotation @FunctionalInterface, which is used to declare an interface as functional interface.
+  Ex: Runnable, callable,Comparable Etc.
+
+  -> TO cal lambda we required Functional Interface.
+  -> Lambda is used to Implements Functioal Interface is very simple and sort maner.
+
+4. Important Rule of lambda.
+    -> If the body of Lambda Expression contain only one statement  then curly braces are optional.
+    -> Java compiler also inter the type of variable passed in argument, hence type us optional.
