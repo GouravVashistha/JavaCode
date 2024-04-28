@@ -37,3 +37,5 @@ Y
 .src/DSA/SortingAlorithums/BubbleSortAlogo.java,a\a\aa5cf7214ccba405145ad16c0c2a0a0d5d071042
 a
 1src/DSA/SearchingAlogrithum/BinarySearchAlgo.java,d\4\d43ec69d9c618d34cbcb51c8d313dd54a5b6a3f3
+m
+=src/Java8Feature/LambadaExpression/Theory_of_LambdaExpression,8\5\85687915f5092dbd526dd8bdee7d8a7e0b3e4a40

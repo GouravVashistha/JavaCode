@@ -1,0 +1,18 @@
+1. What is Lambda?
+    It provides a clear and concise way to represent one method interface using an expression. It is very useful in collection library.
+    It helps to iterate, filter and extract data from collection.
+
+    Lambda is anonymous Function:-
+        NO Name
+        No modifier
+        No Return Type
+
+    The Lambda expression is used to provide the implementation of an interface which has functional interface. It saves a lot of code.
+    In case of lambda expression, we don't need to define the method again for providing the implementation.
+    Here, we just write the implementation code.
+
+2. What is the Benefits of Lambda?
+    -> Reduces the Line of Code.
+    -> Sequential and Parallel Excution Support by passing behaviour as an argument in methods.
+    -> To call APIs Very effectively.
+    -> To write more Readable, Maintainable and concise code.
