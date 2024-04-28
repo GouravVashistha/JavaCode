@@ -55,3 +55,5 @@ m
 -src/Java8Feature/StreamAPI/TheroryOFStreamAPI,5\7\572373fdcaddf7cf39cf7cb458a652a57178e07a
 [
 +src/Java8Feature/StreamAPI/StreamMain1.java,2\7\275b1328f3563c68abc459a0620a6e19cb2bcfb7
+[
++src/Java8Feature/StreamAPI/StreamMain2.java,f\8\f848e86728c5351637e086bf4f594003b3e2acee
