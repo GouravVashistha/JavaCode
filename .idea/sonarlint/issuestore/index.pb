@@ -53,3 +53,5 @@ m
 0src/Java8Feature/LambadaExpression/MyWindow.java,2\5\25bfc3d37f3826da96fbf6ce30a0a92754680359
 ]
 -src/Java8Feature/StreamAPI/TheroryOFStreamAPI,5\7\572373fdcaddf7cf39cf7cb458a652a57178e07a
+[
++src/Java8Feature/StreamAPI/StreamMain1.java,2\7\275b1328f3563c68abc459a0620a6e19cb2bcfb7
