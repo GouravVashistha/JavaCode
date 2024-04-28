@@ -47,3 +47,5 @@ _
 0src/Java8Feature/LambadaExpression/SumInter.java,0\6\06bbb580f206f1073b15812fc1017fe8dd49731e
 c
 3src/Java8Feature/LambadaExpression/LengthInter.java,7\5\75927b9f38d79f19f9b8be6cc196a1c4488392c5
+m
+=src/Java8Feature/LambadaExpression/ThreadDemoUsingLambda.java,7\1\719ca9e7091452e31505bffea72241d6cc488a2c
