@@ -19,5 +19,18 @@ public abstract class Lambda1 implements MyInter{
         };
         i.sayHello();
 
+        SumInter sumInter = (int a,int b)->{
+            return a+b;
+        };
+        System.out.println("sum of two Number :-"+sumInter.sum(2, 6));
+
+
+        SumInter sumInterOptimize = (a,b)->a+b;
+        System.out.println("sum of two Number :-"+sumInterOptimize.sum(22, 6));
+
+        LengthInter lengthInter = (str -> str.length());
+        System.out.println(lengthInter.getlenght("Gaurav Vashistha..!"));
+
+
     }
 }

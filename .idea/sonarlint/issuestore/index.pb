@@ -43,3 +43,7 @@ _
 /src/Java8Feature/LambadaExpression/Lambda1.java,2\7\27ec3cc55382348cf6bd924681f16b2cf1e5d4e6
 _
 /src/Java8Feature/LambadaExpression/MyInter.java,c\e\cede509d2a7276f509b52ba257feb261af65225f
+`
+0src/Java8Feature/LambadaExpression/SumInter.java,0\6\06bbb580f206f1073b15812fc1017fe8dd49731e
+c
+3src/Java8Feature/LambadaExpression/LengthInter.java,7\5\75927b9f38d79f19f9b8be6cc196a1c4488392c5
