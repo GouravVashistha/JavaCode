@@ -82,6 +82,8 @@ public class StreamExample1 {
         List<Integer> oldList = Arrays.asList(1,2,3,3,4,5,6,6,5,4,8,9,0);
         List<Integer> newList = oldList.stream().distinct().collect(Collectors.toList());
         System.out.println(newList);
+
+
     }
 
 }
