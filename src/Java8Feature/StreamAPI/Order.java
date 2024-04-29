@@ -2,7 +2,7 @@ package Java8Feature.StreamAPI;
 
 public class Order {
     enum Side{
-        BUY,SElL;
+        BUY,SELL;
     }
 
     private final String symbol;
