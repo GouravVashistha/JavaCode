@@ -63,3 +63,5 @@ a
 .src/Java8Feature/StreamAPI/StreamExample1.java,7\a\7ada6050b4c44f3d1c2f61c7c88cf5dce2ea6121
 ^
 .src/Java8Feature/StreamAPI/StreamExample2.java,2\e\2e052581874bc062de0213db5d51c2374f08bc68
+U
+%src/Java8Feature/StreamAPI/Order.java,a\d\ad07ef3c03a2f75219be7212cb61c53ca65feeb3
