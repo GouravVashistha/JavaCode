@@ -59,3 +59,5 @@ m
 +src/Java8Feature/StreamAPI/StreamMain2.java,f\8\f848e86728c5351637e086bf4f594003b3e2acee
 a
 1src/Java8Feature/StreamAPI/StreamMainMethod1.java,6\b\6b3e24d8164d8cea11c417bddfa0ad315373f877
+^
+.src/Java8Feature/StreamAPI/StreamExample1.java,7\a\7ada6050b4c44f3d1c2f61c7c88cf5dce2ea6121
