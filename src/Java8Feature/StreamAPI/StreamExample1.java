@@ -64,7 +64,7 @@ public class StreamExample1 {
 //      8. Given a list of integers, sort all the values present in it in descending order using Stream functions?
         List<Integer> list2 = Arrays.asList(1, 2, 3, 4, 77, 6, 7, 8);
         List<Integer> revList = list2.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
-        System.out.println(revList);
+        System.out.println(revList) ;
 
 //      9.
         ArrayList<String> namess = new ArrayList<>();

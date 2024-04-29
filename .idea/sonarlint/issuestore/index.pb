@@ -61,3 +61,5 @@ a
 1src/Java8Feature/StreamAPI/StreamMainMethod1.java,6\b\6b3e24d8164d8cea11c417bddfa0ad315373f877
 ^
 .src/Java8Feature/StreamAPI/StreamExample1.java,7\a\7ada6050b4c44f3d1c2f61c7c88cf5dce2ea6121
+^
+.src/Java8Feature/StreamAPI/StreamExample2.java,2\e\2e052581874bc062de0213db5d51c2374f08bc68
