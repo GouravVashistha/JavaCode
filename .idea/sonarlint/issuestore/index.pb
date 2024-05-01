@@ -67,3 +67,5 @@ U
 %src/Java8Feature/StreamAPI/Order.java,a\d\ad07ef3c03a2f75219be7212cb61c53ca65feeb3
 c
 3src/Java8Feature/StreamAPI/StreamStockBUY_SELL.java,2\d\2de4b497264927eedc23a90b54ddfb0b880c8391
+P
+ src/DSA/Recursion/Factorial.java,2\6\26839d0fd5fc4694d68c4f86d67e1675b406b18e
