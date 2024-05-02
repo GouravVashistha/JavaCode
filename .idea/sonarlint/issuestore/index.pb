@@ -71,3 +71,9 @@ P
  src/DSA/Recursion/Factorial.java,2\6\26839d0fd5fc4694d68c4f86d67e1675b406b18e
 Y
 )src/DSA/Recursion/FactorialRecursion.java,3\9\397176f44f92197a166404d86a5c8e08c34138e3
+Q
+!src/DSA/Recursion/REcursion1.java,8\4\84a10f5f21adf80e886ab1bbdf4c44b287188b5e
+Q
+!src/DSA/Recursion/Recursion1.java,4\f\4fabb0b4e34bfedc50390e93485b7cf71799536f
+Y
+)src/DSA/Recursion/SumOfNaturalNumber.java,0\8\08057bf6c184cd9c1fc9f415dbd377f8c273e04f
