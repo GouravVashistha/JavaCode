@@ -79,3 +79,5 @@ Y
 )src/DSA/Recursion/SumOfNaturalNumber.java,0\8\08057bf6c184cd9c1fc9f415dbd377f8c273e04f
 V
 &src/DSA/Recursion/FibonacciNumber.java,c\4\c4eb88379104196c466d6afa5e466a8324c36489
+R
+"src/DSA/Recursion/Recusrrion2.java,f\0\f052f203ebd5631341f6e81202ef8ddbee01c0b8
