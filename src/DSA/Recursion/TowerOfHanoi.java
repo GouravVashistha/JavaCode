@@ -16,5 +16,6 @@ public class TowerOfHanoi {
     public static void main(String[] args) {
         int n = 3;
         tower(n, "S", "H", "D");
+
     }
 }
