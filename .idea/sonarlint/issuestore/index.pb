@@ -81,3 +81,15 @@ V
 &src/DSA/Recursion/FibonacciNumber.java,c\4\c4eb88379104196c466d6afa5e466a8324c36489
 R
 "src/DSA/Recursion/Recusrrion2.java,f\0\f052f203ebd5631341f6e81202ef8ddbee01c0b8
+T
+$src/DSA/Recursion/PowerofNumber.java,3\0\30088c4af4367924e19ef2d5f4cc5369898b2066
+S
+#src/DSA/Recursion/TowerOfHanoi.java,8\e\8e280464dbb33787d84adad769a04774f4fb2537
+[
++src/DSA/Recursion/PrintStringInReverse.java,1\7\17d06145933ba456f47e936335af58f5d6f86cca
+d
+4src/DSA/Recursion/FirstAndLastOccuranceInString.java,b\5\b57b87d703c29c96ec44b45e1ee7ae15ca03659f
+W
+'src/DSA/Recursion/CheckArraySorted.java,6\1\61e34ee8eeb483981088c83d8a92025dbc4c88c5
+\
+,src/DSA/Recursion/CharacterXPutInTheEnd.java,d\b\db89734e3ee6cef6a10db2f473b04a7ee4fa5e52
