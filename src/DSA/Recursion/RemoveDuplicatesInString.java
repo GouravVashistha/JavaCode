@@ -18,7 +18,6 @@ public class RemoveDuplicatesInString {
             removeDuplicates(str, idx + 1, newString);
         }
     }
-
     public static void main(String[] args) {
         String str = "abbccda";
         removeDuplicates(str, 0, "");
