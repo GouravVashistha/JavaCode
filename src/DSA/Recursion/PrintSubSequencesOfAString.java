@@ -11,6 +11,7 @@ public class PrintSubSequencesOfAString {
         subSequences(str, idx + 1, newString + currChar);
         // or not to be
         subSequences(str, idx + 1, newString);
+
     }
 
     public static void main(String[] args) {
