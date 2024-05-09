@@ -36,7 +36,7 @@ public class SingleDimensionArray {
         In output  3 value is there  other space showing min value of Integer becuse
         this mesns that our cell over here are empty ,so we can isert any element to these cell
         over here.
-        time Complexit:- O(N)
+        time Complexity- O(N)
 
      */
     public void traverseArray(){
@@ -57,6 +57,26 @@ public class SingleDimensionArray {
         }
     }
 
+    // Searching for an element in the given Array
+    // Time Complexity : O(N);
+    // Space Complexity : O(1);
+    public void searchInArray(int valueToSearch){
+        for(int i = 0;i<arr.length;i++){
+            if(arr[i]==valueToSearch){
+                System.out.println("value is found at the index of "+ i);
+                return;
+            }
+        }
+        System.out.println("value is not present in the arrays");
+    }
+    /*
+    Deleting Array Element
+    practically we can not delete any value from the array.
+    Because in Java, any value of cell can not be blank
+    There has to be a value in it. By default compiler inserts zero value to cell
+    when we are creating an integer array but you can alwasy give a default value to the cell
+    which number you want.
+     */
 
 
 
@@ -68,8 +88,9 @@ public class SingleDimensionArray {
         sda.insert(2, 20);
         sda.insert(1, 30);
         sda.insert(12, 120);
-        sda.traverseArray();
-        sda.printArray();
+//        sda.traverseArray();
+//        sda.printArray();
+        sda.searchInArray(10);
 //        var firtELement  = sda.arr[1];
 //        System.out.println("First Element in Array is: "+firtELement);
     }
