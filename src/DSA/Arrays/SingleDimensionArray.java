@@ -70,7 +70,7 @@ public class SingleDimensionArray {
         System.out.println("value is not present in the arrays");
     }
     /*
-    Deleting Array Element
+    Deleting value from Array
     practically we can not delete any value from the array.
     Because in Java, any value of cell can not be blank
     There has to be a value in it. By default compiler inserts zero value to cell
@@ -78,6 +78,14 @@ public class SingleDimensionArray {
     which number you want.
      */
 
+    public void deleteElement(int valueToBeDeletedIndex) {
+        try {
+            arr[valueToBeDeletedIndex] = Integer.MIN_VALUE;
+            System.out.println("value is deleted");
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("The value you provide not present in the range of array");
+        }
+    }
 
 
     public static void main(String[] args) {
@@ -86,11 +94,15 @@ public class SingleDimensionArray {
         sda.insert(0, 5);
         sda.insert(1, 10);
         sda.insert(2, 20);
+        sda.insert(3, 40);
         sda.insert(1, 30);
         sda.insert(12, 120);
 //        sda.traverseArray();
 //        sda.printArray();
         sda.searchInArray(10);
+        sda.printArray();
+        sda.deleteElement(3);
+        sda.printArray();
 //        var firtELement  = sda.arr[1];
 //        System.out.println("First Element in Array is: "+firtELement);
     }
