@@ -46,6 +46,15 @@ public class TwoDimensionalArray {
         }
     }
 
+    public void deletingValueFromArray(int row,int col){
+        try{
+            System.out.println("Successfully Deleted:  "+arr[row][col]);
+            arr[row][col] = Integer.MIN_VALUE;
+        }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("The value you provide not present in the range of array");
+        }
+    }
+
     //Searching asingle value  from the Array
     public void serarchingValue(int valueToBeSearch) {
         for (int row = 0; row < arr.length; row++) {
@@ -75,5 +84,7 @@ public class TwoDimensionalArray {
         tda.printElement();
         tda.accessCell(0, 1);
         tda.serarchingValue(20);
+        tda.deletingValueFromArray(2, 1);
+        tda.printElement();
     }
 }
