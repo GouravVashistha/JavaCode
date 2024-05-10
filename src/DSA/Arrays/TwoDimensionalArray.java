@@ -46,6 +46,18 @@ public class TwoDimensionalArray {
         }
     }
 
+    //Searching asingle value  from the Array
+    public void serarchingValue(int valueToBeSearch) {
+        for (int row = 0; row < arr.length; row++) {
+            for (int col = 0; col < arr[0].length; col++) {
+                if (arr[row][col] == valueToBeSearch) {
+                    System.out.println("Value is found at index : " + row + " , " + col);
+                    return;
+                }
+            }
+            System.out.println("value is not found");
+        }
+    }
 
     public static void main(String[] args) {
         TwoDimensionalArray tda = new TwoDimensionalArray(3, 3);
@@ -62,5 +74,6 @@ public class TwoDimensionalArray {
         System.out.println("Print The 2D Array:-");
         tda.printElement();
         tda.accessCell(0, 1);
+        tda.serarchingValue(20);
     }
 }
