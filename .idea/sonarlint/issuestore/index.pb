@@ -123,3 +123,5 @@ O
 src/DSA/Arrays/TwoSumIndex.java,8\a\8af5436db43dd0d9f232e11b7022a10ffb9fbac7
 Y
 )src/DSA/Arrays/FindingANumberInArray.java,3\5\359d451cacc35c35f601df0809c444f337d57d3a
+Z
+*src/DSA/Arrays/MaxProductOfTwoInteger.java,3\c\3c24a5c700af700951bba2b2ccbbf625fa47a175
