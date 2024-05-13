@@ -121,3 +121,5 @@ c
 -src/DSA/Arrays/BestTimeToBuyAndSellStock.java,f\0\f0cfd16cf9a8959423ad226fa9296f4515e27faa
 O
 src/DSA/Arrays/TwoSumIndex.java,8\a\8af5436db43dd0d9f232e11b7022a10ffb9fbac7
+Y
+)src/DSA/Arrays/FindingANumberInArray.java,3\5\359d451cacc35c35f601df0809c444f337d57d3a
