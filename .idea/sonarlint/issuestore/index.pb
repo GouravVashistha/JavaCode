@@ -119,3 +119,5 @@ c
 3src/DSA/Arrays/RemoveDuplicatesfromSortedArray.java,b\2\b2b1c682be5d7168bcd35cb6307a4a5e280a43a1
 ]
 -src/DSA/Arrays/BestTimeToBuyAndSellStock.java,f\0\f0cfd16cf9a8959423ad226fa9296f4515e27faa
+O
+src/DSA/Arrays/TwoSumIndex.java,8\a\8af5436db43dd0d9f232e11b7022a10ffb9fbac7
