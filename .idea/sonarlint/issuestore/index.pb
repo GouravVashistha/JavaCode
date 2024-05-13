@@ -125,3 +125,7 @@ Y
 )src/DSA/Arrays/FindingANumberInArray.java,3\5\359d451cacc35c35f601df0809c444f337d57d3a
 Z
 *src/DSA/Arrays/MaxProductOfTwoInteger.java,3\c\3c24a5c700af700951bba2b2ccbbf625fa47a175
+`
+0src/DSA/Arrays/ContainsDuplicateLeetCode217.java,f\a\faaa5fa9b34643c16ed157c1fc73fcaebc309d37
+`
+0src/DSA/Arrays/ContainsDuplicate217LeetCode.java,a\1\a1d6c65b5b978e53665a29988a54e261a9ae83ae
