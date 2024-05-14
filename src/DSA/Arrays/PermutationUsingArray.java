@@ -25,5 +25,6 @@ public class PermutationUsingArray {
         int[] array1 = {1,2,3,4,5};
         int[] array2 = {5,1,2,3,4};
         System.out.println(permutation(array1, array2));
+        System.out.println("dd");
     }
 }
