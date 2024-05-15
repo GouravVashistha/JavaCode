@@ -4,16 +4,6 @@ import java.util.Scanner;
 
 public class RotateMatrix {
 
-//    public boolean rotateMatrix(int[][] matrix){
-//        if(matrix.length==0 || matrix.length != matrix[0].length){
-//            return false;
-//        }
-//        int n = matrix.length;
-//        for(int layer = 0; layer<n/2;layer++){
-//            int first = layer;
-//            int last = n -1-layer;
-//        }
-//    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
