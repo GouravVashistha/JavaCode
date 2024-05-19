@@ -30,5 +30,20 @@ public class ArrayListDemo {
             String letter = itr.next();
             System.out.println(letter);
         }
+
+        //Searching
+        ArrayList<String> strElements = new ArrayList<>(Arrays.asList("A","B","C","D","E"));
+        for(String letter:strElements){
+            if(letter.equals("D")){
+                System.out.println("Element is found ");
+                break;
+            }
+        }
+        int index = strElements.indexOf("C");
+        System.out.println("The elemenet found at the index of :"+index);
+
+        // delete Element
+        strElements.remove("C");
+        System.out.println(strElements);
     }
 }
