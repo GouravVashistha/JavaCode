@@ -137,3 +137,7 @@ T
 $src/DSA/ArrayList/ArrayListDemo.java,9\b\9bbb731b9e4406e073c1c673ebb61f82479d292e
 T
 $src/DSA/Arrays/ReverseHalfArray.java,0\2\02f1530091f47c183d62d354e92ac67bbf06328c
+R
+"src/DSA/Arrays/ArrayMaxResult.java,7\8\784fc0abb20ebb2e36af1dad7fe4a20d79d10442
+V
+&src/DSA/LinkedList/LinkedListDemo.java,8\a\8a7172fc853fa425b7418a9172ad3f679c4afdbc
