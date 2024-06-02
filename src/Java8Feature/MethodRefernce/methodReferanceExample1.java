@@ -1,8 +1,7 @@
 package Java8Feature.MethodRefernce;
 
-import java.sql.SQLOutput;
 import java.util.*;
-import java.util.stream.Collectors;
+
 
 class Person{
     private String name;
