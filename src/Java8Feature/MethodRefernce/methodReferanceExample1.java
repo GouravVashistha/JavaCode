@@ -2,7 +2,6 @@ package Java8Feature.MethodRefernce;
 
 import java.util.*;
 
-
 class Person{
     private String name;
     private int age;
