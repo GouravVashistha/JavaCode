@@ -141,3 +141,7 @@ R
 "src/DSA/Arrays/ArrayMaxResult.java,7\8\784fc0abb20ebb2e36af1dad7fe4a20d79d10442
 V
 &src/DSA/LinkedList/LinkedListDemo.java,8\a\8a7172fc853fa425b7418a9172ad3f679c4afdbc
+l
+<src/Java8Feature/MethodRefernce/methodReferanceExample1.java,f\6\f69bc5fc3c2d033fe312439ce5640a06b35747a0
+X
+(src/DSA/LinkedList/CustomLinkedList.java,0\9\094e83cfbb5efaafe957c7c18ebbea58b91f69b3

@@ -1,0 +1,12 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ñÃŸç8ÚŸÊ×ı1J$a0fbebad-deb9-48fe-9845-7ad17992d283
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äßÉÿÿÿÿÿ8Ö±×ı1J$db09bd05-f2f8-4191-a73d-4e6d75981772
+}	java:S125/"<This block of commented-out lines of code should be removed.(¸å‚j8óŸÊ×ı1J$f0992e3c-f915-418e-ba3b-467fb5eddd48
+~	java:S1251"<This block of commented-out lines of code should be removed.(ƒ·™ß8óŸÊ×ı1J$a583d334-3bcf-4000-8952-4d6f8acf8b77
+r	java:S1065"+Replace this use of System.out by a logger.(ˆ¢Ûßüÿÿÿÿ8õŸÊ×ı1J$b869f3bd-0160-4d3c-a97c-6d9766a2d24f
+m	java:S106:"+Replace this use of System.out by a logger.(ÚŸô»8öŸÊ×ı1J$becb5e48-7bb5-407e-87e4-abfcf56162c7
+„
+java:S1612;"<Replace this lambda with method reference 'Person::getName'.(­…ß÷şÿÿÿÿ8÷ŸÊ×ı1J$c2186be3-1e42-4405-b4c0-69107a966c0e
+r	java:S106;"+Replace this use of System.out by a logger.(­…ß÷şÿÿÿÿ8øŸÊ×ı1J$44513cf8-9c53-4880-9d96-dbdc76ef5f44
+r	java:S106<"+Replace this use of System.out by a logger.(İòâÛÿÿÿÿÿ8ùŸÊ×ı1J$fd4885cc-a67f-422c-9dde-12088b4ba8e5
+m	java:S106>"+Replace this use of System.out by a logger.(ÆÒ€8úŸÊ×ı1J$6e9fc204-6ba3-49e4-a6f3-1ebf8982aeb4

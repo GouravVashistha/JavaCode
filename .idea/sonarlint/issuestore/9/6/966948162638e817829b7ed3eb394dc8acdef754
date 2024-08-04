@@ -1,0 +1,9 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éˆ¢™
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒÎÉ
+p
+java:S3008"ZRename this field "single_instance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ“îå
+O
+java:S1117"4Rename "i" which hides the field declared at line 5.(“Ğ¢Åûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(œìï•øÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¨¢¢”ûÿÿÿÿ
