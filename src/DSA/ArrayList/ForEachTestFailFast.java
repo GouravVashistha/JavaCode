@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public class ForEachTest {
+public class ForEachTestFailFast {
     public static void main(String[] args) {
         ArrayList<String> nameList = new ArrayList<>();
         List<String> listofName = Arrays.asList("Gaurav","Sachin","Rahul","vicky","Jatin","Sidharth");
