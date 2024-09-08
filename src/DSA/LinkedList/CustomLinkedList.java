@@ -9,11 +9,8 @@ public class CustomLinkedList {
         list.add(3);
         list.add(4);
         list.show();
-
     }
-
 }
-
 class LinkList {
     Node head;
 
@@ -32,9 +29,7 @@ class LinkList {
             }
             n.next = node;
         }
-
     }
-
     public void show() {
         Node node = head;
         do {
