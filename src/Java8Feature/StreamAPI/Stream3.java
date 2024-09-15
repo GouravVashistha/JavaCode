@@ -2,6 +2,7 @@ package Java8Feature.StreamAPI;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -58,6 +59,16 @@ public class Stream3 {
 
         Products p11 = prodList.stream().max((p1, p2) -> p1.price > p2.price ? 1 : -1).get();
         System.out.println(p11.price);
+
+
+        List<String> s1 = prodList.stream()
+                .map(a -> a.name)
+                .sorted(Comparator.reverseOrder()) // Sorting in descending order
+                .collect(Collectors.toList());
+        System.out.println(s1);
+
+        List<Products> s2 = prodList.stream().sorted(Comparator.comparing(p -> p.name)).collect(Collectors.toList());
+        s2.forEach(p-> System.out.println(p.name+p.id));
 
     }
 }
