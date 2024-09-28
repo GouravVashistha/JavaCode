@@ -2,7 +2,6 @@ package Java8Feature.MethodRefernce;
 
 import java.util.*;
 
-
 class Person{
     private String name;
     private int age;
@@ -58,6 +57,7 @@ public class methodReferanceExample1{
         Collections.sort(personList,methodReferanceExample1::compareByName);
         System.out.println("Filter By Name :");
         personList.stream().map(x -> x.getName()).forEach(System.out::println);
+
         System.out.println("Filter By Age :");
         Collections.sort(personList,methodReferanceExample1::compareByAge);
         personList.stream().map(x->x.getAge()).forEach(System.out::println);
