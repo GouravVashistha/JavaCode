@@ -7,6 +7,7 @@ public class JavaBasicStart {
     }
 
     protected static void sumofNumber(int a,int b){
+        // (* / %) > (+ -)
         int sum = a+b;
         System.out.println(sum);
         int ans = a*b/a-b;
