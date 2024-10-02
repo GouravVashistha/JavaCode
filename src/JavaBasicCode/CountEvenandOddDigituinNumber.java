@@ -20,6 +20,8 @@ public class CountEvenandOddDigituinNumber {
              num = num/10;
 
          }
+
+         // this program count no of odd and even digit in number
         System.out.println("odd :-  "+odd+" ::: " +"even:-  "+ even);
     }
 }
