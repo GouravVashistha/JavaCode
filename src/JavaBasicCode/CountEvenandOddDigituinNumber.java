@@ -20,6 +20,6 @@ public class CountEvenandOddDigituinNumber {
              num = num/10;
 
          }
-        System.out.println("odd :-"+odd+" ::: " +"even:-"+ even);
+        System.out.println("odd :-  "+odd+" ::: " +"even:-  "+ even);
     }
 }

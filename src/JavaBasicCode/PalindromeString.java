@@ -22,6 +22,7 @@ public class PalindromeString {
         System.out.println("Enter the string :-");
         String str = sc.nextLine();
         palindrome(str);
+        sc.close();
 
 
     }
