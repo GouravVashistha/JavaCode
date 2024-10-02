@@ -9,8 +9,8 @@ public class ArrayListDemo {
         ArrayList<Integer> newArr = new ArrayList<>();
         newArr.add(1);
         newArr.add(2);
-        newArr.addFirst(3);
-        newArr.addLast(4);
+        // newArr.addFirst(3);
+        // newArr.addLast(4); // addLast and addFirst not present in the arraList 
         newArr.contains(3);
         System.out.println(newArr);
         ArrayList<String> names = new ArrayList<>(Arrays.asList("Gaurav","jatin","Shabbir"));
