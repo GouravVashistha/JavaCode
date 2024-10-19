@@ -16,7 +16,7 @@ public class ArrayDemo1 {
         String sArray[] = {"a","b","c"};
         System.out.println(Arrays.toString(sArray));
 
-        // Insertion in Array
+        // check the git status
 
 
 
