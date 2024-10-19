@@ -16,8 +16,7 @@ public class ArrayDemo1 {
         String sArray[] = {"a","b","c"};
         System.out.println(Arrays.toString(sArray));
 
-        // check the git statusgfg
-
+       
 
 
     }
