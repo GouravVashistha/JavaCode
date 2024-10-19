@@ -1,4 +1,5 @@
-Class AddingElementInLast{
+package DSA.Arrays;
+public class AddingElementInLast{
   public static void main(String[] args) {
         int[] intArray  = new int[6];
         int length = 0;

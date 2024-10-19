@@ -31,7 +31,7 @@ public class FactorialRecursion {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         sc.close();
-        var facto = f.factorial(num);
+        int facto = f.factorial(num);
         System.out.println(facto);
 
         calcFactorial(num);
