@@ -1,4 +1,6 @@
+
 [Gourav Vashistha Linkdin](https://www.linkedin.com/in/gourav-vashistha/)
+
 # What Is an Array?
 
   An Array is a collection of items. The items could be integers, strings, DVDs, games, books—anything really. T
