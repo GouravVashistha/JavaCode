@@ -14,7 +14,7 @@ definition of a DVD for clarity.
 
 // The actual code for creating an Array to hold DVD's.
 DVD[] dvdCollection = new DVD[15];
-
+``` java
 // A simple definition for a DVD.
 public class DVD {
     public String name;
@@ -32,6 +32,7 @@ public class DVD {
     }
 }
 
+```
 ## Accessing Elements in Arrays:-
   The two most primitive Array operations are writing elements into them, and reading elements from them. All other Array 
   operations are built on top of these two primitive operations.
@@ -43,6 +44,7 @@ public class DVD {
 
   `Let's put the DVD for The Avengers into the eighth place of the Array we created above.`
 
+``` java
   // Firstly, we need to actually create a DVD object for The Avengers.
   DVD avengersDVD = new DVD("The Avengers", 2012, "Joss Whedon");
 
@@ -65,3 +67,6 @@ DVD lionKingDVD = new DVD("The Lion King", 2019, "Jon Favreau");
 
 // Put "The Lion King" into the 3rd place: index 2.
   dvdCollection[2] = lionKingDVD;
+
+ ```
+  
