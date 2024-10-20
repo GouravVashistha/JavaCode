@@ -41,7 +41,7 @@ public class DVD {
   identified using a number in the range of 0 to N - 1. The 1st place is 0, the 2nd place is 1, the 3rd place is 2... 
   all the way up to the 15th place, which is 14. We call these numbers that identify each place indexes.
 
-  Let's put the DVD for The Avengers into the eighth place of the Array we created above.
+  `Let's put the DVD for The Avengers into the eighth place of the Array we created above.`
 
   // Firstly, we need to actually create a DVD object for The Avengers.
   DVD avengersDVD = new DVD("The Avengers", 2012, "Joss Whedon");
