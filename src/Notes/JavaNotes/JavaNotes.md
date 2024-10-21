@@ -108,4 +108,4 @@ for (int i = 0; i < 10; i++) {
 ## Question 1 : What is Constructor in Java ?
 Constructor is block of code Just like a method  but it is use to insitialize the state of and object.
 
-Every time an object is create with the help of [new] KeyWord, the [Default Constructor]  of  the call is called.
+Every time an object is create with the help of [ new ] KeyWord, the [ Default Constructor ]  of  the call is called.
