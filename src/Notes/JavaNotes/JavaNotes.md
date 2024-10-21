@@ -109,3 +109,5 @@ for (int i = 0; i < 10; i++) {
 Constructor is block of code Just like a method  but it is use to insitialize the state of and object.
 
 Every time an object is create with the help of [ new ] KeyWord, the [ Default Constructor ]  of  the call is called.
+
+ [John Gruber]
