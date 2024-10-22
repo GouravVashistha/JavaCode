@@ -110,4 +110,3 @@ Constructor is block of code Just like a method  but it is use to insitialize th
 
 Every time an object is create with the help of [new] KeyWord, the [Default Constructor]  of  the call is called.
 
-  [Gourav Vashistha Linkdin]
