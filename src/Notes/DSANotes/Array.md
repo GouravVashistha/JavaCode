@@ -72,4 +72,9 @@ DVD lionKingDVD = new DVD("The Lion King", 2019, "Jon Favreau");
   dvdCollection[2] = lionKingDVD;
 
  ```
-  
+ ###  Array Insertions
+ Inserting a new element into an Array can take many forms:
+> Inserting a new element at the end of the Array.
+> Inserting a new element at the beginning of the Array.
+> Inserting a new element at any given index inside the Array.
+ 

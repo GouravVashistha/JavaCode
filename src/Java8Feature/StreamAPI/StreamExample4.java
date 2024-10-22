@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 public class StreamExample4 {
     public static void main(String[] args) {
-        List<Integer> s1 = List.of(2, 4, 50, 21, 22, 67);
+        List<Integer> s1 = Arrays.asList(2, 4, 50, 21, 22, 67);
         List<Integer> ListEven = new ArrayList<>();
         for(Integer i:s1){
             if(i%2==0){
@@ -37,8 +37,8 @@ public class StreamExample4 {
         });
         //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-        List<String> names1 = List.of("Gaurav","Sidharth","Shabbir","Ankit","Bhupesh");
-        List<Integer> numbers1 = List.of(23, 4, 2, 5, 7, 6);
+        List<String> names1 =  Arrays.asList("Gaurav","Sidharth","Shabbir","Ankit","Bhupesh");
+        List<Integer> numbers1 =  Arrays.asList(23, 4, 2, 5, 7, 6);
 
         // Find the name start with A
          List<String> newName1 = names1.stream().filter(e->e.startsWith("A")).collect(Collectors.toList());
