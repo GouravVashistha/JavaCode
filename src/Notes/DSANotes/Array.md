@@ -74,7 +74,21 @@ DVD lionKingDVD = new DVD("The Lion King", 2019, "Jon Favreau");
  ```
  ###  Array Insertions
  Inserting a new element into an Array can take many forms:
-> Inserting a new element at the end of the Array.
-> Inserting a new element at the beginning of the Array.
-> Inserting a new element at any given index inside the Array.
+- Inserting a new element at the end of the Array.
+- Inserting a new element at the beginning of the Array.
+- Inserting a new element at any given index inside the Array.
  
+ ### Inserting at the End of an Array
+ At any point in time, we know the index of the last element of the Array, as we've kept track of it in our length variable. All we need to do for inserting an element at the end is to assign the new element to one index past the current last element
+
+ ``` java
+ // Declare an integer array of 6 elements
+int[] intArray = new int[6];
+int length = 0;
+
+// Add 3 elements to the Array
+for (int i = 0; i < 3; i++) {
+    intArray[length] = i;
+    length++;
+}
+```
