@@ -138,3 +138,29 @@ Index 5 contains 0.
 Similarly, for inserting at any given index, we first need to shift all the elements from that index onwards one position to the right. Once the space is created for the new element, we proceed with the insertion. If you think about it, insertion at the beginning is basically a special case of inserting an element at a given index—in that case, the given index was 0.
 
 > Again, this is also a costly operation since we could potentially have to shift almost all the other elements to the right before actually inserting the new element. As you saw above, shifting lots of elements one place to the right adds to the time complexity of the insertion task.
+
+```java
+// Say we want to insert the element at index 2.
+// First, we will have to create space for the new element.
+for (int i = 4; i >= 2; i--)
+{
+    // Shift each element one position to the right.
+    intArray[i + 1] = intArray[i];
+}
+
+// Now that we have created space for the new element,
+// we can insert it at the required index.
+intArray[2] = 30;
+```
+And here's the result of running printArray.
+
+```java
+Index 0 contains 20.
+Index 1 contains 0.
+Index 2 contains 30.
+Index 3 contains 1.
+Index 4 contains 2.
+Index 5 contains 10.
+```
+
+Does that all sound good? The main thing to be careful of is remembering that array.length gives you the total capacity of the Array. If you want to know the last used slot, you'll need to keep track of this yourself using a length variable. Other than that, just be careful to read any elements you want to keep, before you overwrite them!
