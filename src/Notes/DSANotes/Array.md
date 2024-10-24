@@ -108,3 +108,33 @@ Index 3 contains 0.
 Index 4 contains 0.
 Index 5 contains 0.
 ```
+
+## Inserting at the Start of an Array
+To insert an element at the start of an Array, we'll need to shift all other elements in the Array to the right by one index to create space for the new element. This is a very costly operation, since each of the existing elements has to be shifted one step to the right. The need to shift everything implies that this is not a constant time operation. In fact, the time taken for insertion at the beginning of an Array will be proportional to the length of the Array. In terms of time complexity analysis, this is a linear time complexity: O(N), where N is the length of the Array.
+
+```java
+// First, we will have to create space for a new element.
+// We do that by shifting each element one index to the right.
+// This will firstly move the element at index 3, then 2, then 1, then finally 0.
+// We need to go backwards to avoid overwriting any elements.
+for (int i = 3; i >= 0; i--) {
+    intArray[i + 1] = intArray[i];
+}
+
+// Now that we have created space for the new element,
+// we can insert it at the beginning.
+intArray[0] = 20;
+```
+And here's the result of running printArray.
+```java
+Index 0 contains 20.
+Index 1 contains 0.
+Index 2 contains 1.
+Index 3 contains 2.
+Index 4 contains 10.
+Index 5 contains 0.
+```
+### Inserting Anywhere in the Array
+Similarly, for inserting at any given index, we first need to shift all the elements from that index onwards one position to the right. Once the space is created for the new element, we proceed with the insertion. If you think about it, insertion at the beginning is basically a special case of inserting an element at a given index—in that case, the given index was 0.
+
+> Again, this is also a costly operation since we could potentially have to shift almost all the other elements to the right before actually inserting the new element. As you saw above, shifting lots of elements one place to the right adds to the time complexity of the insertion task.
