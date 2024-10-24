@@ -92,3 +92,19 @@ for (int i = 0; i < 3; i++) {
     length++;
 }
 ```
+Let's define a function, printArray, to help us visualise what's happening.
+
+```java
+for (int i = 0; i < intArray.length; i++) {
+    System.out.println("Index " + i + " contains " + intArray[i]);
+}
+```
+If we run our printArray function, we'll get the following output.
+```java
+Index 0 contains 0.
+Index 1 contains 1.
+Index 2 contains 2.
+Index 3 contains 0.
+Index 4 contains 0.
+Index 5 contains 0.
+```
