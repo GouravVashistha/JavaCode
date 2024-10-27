@@ -51,6 +51,6 @@ public class FindAverageTemperatureAndDayAboveAverageTemp {
 
         System.out.println(above+ " days above the averge");
 
-
+        sc.close();
     }
 }

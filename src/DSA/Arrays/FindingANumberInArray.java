@@ -1,6 +1,5 @@
 package DSA.Arrays;
 
-import java.util.Arrays;
 
 public class FindingANumberInArray {
     public int  searchInArray(int[] intArray, int valueToSearch) {
