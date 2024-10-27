@@ -1,5 +1,6 @@
 package Java8Feature.StreamAPI;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -17,8 +18,8 @@ public class StreamMainMethod1 {
 
          */
 
-        List<String> names = List.of("Gaurav","Sidharth","Shabbir","Ankit","Bhupesh");
-        List<Integer> numbers = List.of(23, 4, 2, 5, 7, 6);
+        List<String> names = Arrays.asList("Gaurav","Sidharth","Shabbir","Ankit","Bhupesh");
+        List<Integer> numbers =  Arrays.asList(23, 4, 2, 5, 7, 6);
 
         // Find  the name from the list start with A.
         List<String> newNames = names.stream().filter(e -> e.startsWith("A")).collect(Collectors.toList());

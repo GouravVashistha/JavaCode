@@ -10,7 +10,7 @@ public class StreamMain1 {
     public static void main(String[] args) {
         // Create a List and filter all even number from list.
         // This list(list1) is a imutable we can not change in this list.
-        List<Integer> list1 = List.of(2, 4, 50, 21, 22, 67);
+        List<Integer> list1 =  Arrays.asList(2, 4, 50, 21, 22, 67);
         List<Integer> list2 = new ArrayList<>();
         list2.add(12);
         list2.add(34);
