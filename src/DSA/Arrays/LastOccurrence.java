@@ -1,7 +1,9 @@
 package DSA.Arrays;
 
 import java.util.Arrays;
-
+/*
+ * in this code we can check last occurrence of the element in the array..
+ */
 public class LastOccurrence {
     public static void main(String[] args) {
         int[] arr = {5,6,5,3,5,4};
