@@ -1,4 +1,5 @@
 package DSA.Arrays;
+// count the number of sum and tripletes whose sum is equal to the given value x;
 
 public class FindPairSumEqualToTarget {
     static int twoPairSum(int[] arr, int target) {
