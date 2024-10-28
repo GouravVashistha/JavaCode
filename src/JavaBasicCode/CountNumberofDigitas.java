@@ -14,7 +14,7 @@ public class CountNumberofDigitas {
         }
         System.out.println(count);
 
-//        second way
+//        second way and Optimised
 
 //        int len = (int) Math.log10(num);
 //        System.out.println(len+1);
