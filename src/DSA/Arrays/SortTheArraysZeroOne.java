@@ -43,6 +43,22 @@ public class SortTheArraysZeroOne {
         }
     }
 
+    static void SortZeroAndOneSecondApproach(int[] arr){
+        int low = 0, high = arr.length - 1;
+        while (low < high) {
+            if (arr[low] == 1 && arr[high] == 0) {
+                int temp = arr[low];
+                arr[low] = arr[high];
+                arr[high] = temp;
+            }
+            if (arr[low] == 0) {
+                low++;
+            }
+            if (arr[high] == 1) {
+                high--;
+            }
+        }
+    }
 
     public static void main(String[] args) {
         int arr[] = { 1, 0, 0, 1, 0, 1, 1, 0, 0 };
@@ -51,7 +67,7 @@ public class SortTheArraysZeroOne {
         // System.out.println("Sorted Arrays : " + Arrays.toString(arr));
 
         System.out.println("Orignial Arrya : " + Arrays.toString(arr));
-        SortZeroANdOnesAnother(arr);
+        SortZeroAndOneSecondApproach(arr);
         System.out.println("Sorted Arrays : " + Arrays.toString(arr));
     }
 }
