@@ -34,6 +34,7 @@ public class PrefixSum {
         return pref;
     }
 
+    // better approach
     static int[] makePrefixSUmWithoutNewArray(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) {
