@@ -20,8 +20,34 @@ package DSA.Arrays;
  * pref[i] = pref[i-1] + a[i];
  */
 
+import java.util.Arrays;
+
 public class PrefixSum {
+    // with creating new array
+    static int[] makePrefixSUm(int[] arr) {
+        int n = arr.length;
+        int[] pref = new int[n];
+        pref[0] = arr[0];
+        for (int i = 1; i < n; i++) {
+            pref[i] = pref[i - 1] + arr[i];
+        }
+        return pref;
+    }
+
+    static int[] makePrefixSUmWithoutNewArray(int[] arr) {
+        int n = arr.length;
+        for(int i = 1; i < n; i++){
+            arr[i] = arr[i]+arr[i-1];
+        }
+        return arr;
+    }
+
     public static void main(String[] args) {
+        int[] arr = { 1, 2, 3, 4, 5 };
+        int[] ans = makePrefixSUm(arr);
+        int[] ans2 = makePrefixSUmWithoutNewArray(arr);
+        System.out.println(Arrays.toString(ans));
+        System.out.println(Arrays.toString(ans2));
 
     }
 }
