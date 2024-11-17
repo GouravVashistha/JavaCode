@@ -34,6 +34,6 @@ public class FactorialRecursion {
         int facto = f.factorial(num);
         System.out.println(facto);
 
-        calcFactorial(num);
+        // calcFactorial(num);
     }
 }
