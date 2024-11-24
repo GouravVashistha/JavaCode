@@ -4,16 +4,20 @@ package DSA.Recursion;
 
 public class NaturalNumberRecursion {
     static void PI(int n) {
-        if (n == 1) {
+        if (n == 10) {
             System.out.println(n);
             return;
         }
-
-        PI(n - 1);
+        
         System.out.println(n);
+        PI(n + 1);
     }
 
+
     public static void main(String[] args) {
-        PI(10);
+
+        System.out.println(System.nanoTime());
+        PI(1);
+        System.out.println(System.nanoTime());
     }
 }
