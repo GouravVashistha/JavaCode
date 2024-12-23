@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamExample1 {
+        
     public static void main(String[] args) {
 //     1. Given a list of integers, find out all the numbers starting with 1 using Stream Function ?
        List<Integer> number =  Arrays.asList(123, 456, 178, 198, 102, 703, 101);
