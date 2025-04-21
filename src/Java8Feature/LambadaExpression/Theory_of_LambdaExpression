@@ -29,3 +29,5 @@
 4. Important Rule of lambda.
     -> If the body of Lambda Expression contain only one statement  then curly braces are optional.
     -> Java compiler also inter the type of variable passed in argument, hence type us optional.
+
+    
